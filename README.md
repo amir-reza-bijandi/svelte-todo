@@ -1,38 +1,38 @@
-# sv
+# Svelte 5 Todo App
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A simple Todo app built with Svelte 5 to demonstrate basic concepts and practices.
 
-## Creating a project
+## Getting Started
 
-If you're seeing this, you've probably already done this step. Congrats!
+1. **Clone the repository:**
 
-```bash
-# create a new project in the current directory
-npx sv create
+   ```bash
+   git clone https://github.com/amir-reza-bijandi/svelte-todo.git
+   ```
 
-# create a new project in my-app
-npx sv create my-app
-```
+2. **Install dependencies:**
 
-## Developing
+   ```bash
+   cd svelte-todo-app
+   npm install
+   ```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+3. **Start the development server:**
 
-```bash
-npm run dev
+   ```bash
+   npm run dev
+   ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+   This will start a local development server, and you can access the app at `http://localhost:5173`.
 
-## Building
+## Features
 
-To create a production version of your app:
+- Log in & Sign up: The user can create an account.
+- Add Todo Items: Create new todo items by entering text into the input field and pressing Enter.
+- Mark Todos as Complete: Toggle the completion status of a todo item by clicking on it.
+- Delete Todo Items: Remove completed todo items by clicking the "Clear Completed" button.
 
-```bash
-npm run build
-```
+## Technology Stack
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- Svelte 5: A modern framework for building user interfaces.
+- SvelteKit: A full-featured framework for building web applications.
